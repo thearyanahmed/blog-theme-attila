@@ -1,0 +1,36 @@
+.nav-header .nav-wrapper {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.blog-header{
+    padding-top: 0;
+}
+
+.blog-header .blog-box, .container .post .post-box {
+    border-bottom: none;
+}
+
+.home-page-blog-title {
+    font-family: 'Dancing Script', cursive;
+}
+
+.post-title {
+    font-weight: 400;
+    font-family: 'Libre Baskerville', serif;
+}
+.container .post .post-box {
+    padding-top: calc(1.5rem + 1.5vw);
+    padding-bottom: calc(1.5rem + 1.5vw);
+}
+
+.secondary-nav-header {
+    position: absolute;
+    width: 100%;
+    z-index: 400;
+    transition: all ease-out 0.3s;
+}
+
+.secondary-font {
+    font-family: 'Libre Baskerville', serif;
+}
