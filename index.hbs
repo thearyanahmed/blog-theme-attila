@@ -2,7 +2,6 @@
 <header class="blog-header {{#if @site.cover_image}} has-cover{{/if}}">
 	<div class="inner">
 		<div class="box blog-box">
-<!--			<h1 class="blog-name">{{@site.title}}</h1>-->
 
             <div class="pt-20 flex flex-row justify-center">
                 <img src="https://avatars.githubusercontent.com/u/20617352?v=4"
@@ -10,15 +9,20 @@
             </div>
 
 			{{#if @site.title}}
-			    <span class="ext-4xl md:text-6xl cursor-pointer home-page-blog-title blog-description">{{@site.title}}</span>
+			    <span class="text-4xl md:text-6xl cursor-pointer home-page-blog-title blog-description">{{@site.title}}</span>
 			{{/if}}
 
 			{{#if @site.description}}
 			    <span class="text-3xl md:text-3xl blog-description">{{@site.description}}</span>
 			{{/if}}
 
-            <div class="mt-4 md:mt-10 text-3xl text-gray-500">
-                Hello,
+            <div class="mt-8 md:mt-10 text-2xl text-gray-500 leading-normal secondary-font">
+                <p>
+                    I'm a programmer. I'm currently working at <a class="text-blue-600" href="https://www.radicalel.com/" target="_blank">Radical Elements</a> as a backend developer.
+                    I work on the PHP stack,GO, python's fastapi mostly for backend. Besides these, I tinker with various tech like docker, terraform, aws etc.
+                </p>
+
+                <p>Currently maintaining, <a href="https://skridi.com/" class="text-blue-600" target="_blank">Skridi</a> & <a href="#" class="text-blue-600"  target="_blank">Matx</a></p>
             </div>
 
             {{#is "home"}}
