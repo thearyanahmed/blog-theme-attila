@@ -1,5 +1,6 @@
 <ul class="{{#is 'home'}} flex overflow-scroll	space-x-4 flex-row justify-between secondary-font px-4 py-4 {{/is}}">
+
 	{{#foreach navigation}}
-		<li class="{{#is 'home'}} text-xl md:text-2xl {{/is}} nav-{{slug}}{{#if current}} active{{/if}}"><a href="{{url absolute="true"}}"><span>{{label}}</span></a></li>
+		<li class="{{#is 'home'}} {{/is}} nav-{{slug}}{{#if current}} active{{/if}}"><a href="{{url absolute="true"}}"><span>{{label}}</span></a></li>
 	{{/foreach}}
 </ul>
