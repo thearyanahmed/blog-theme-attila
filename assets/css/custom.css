@@ -34,3 +34,9 @@
 .secondary-font {
     font-family: 'Libre Baskerville', serif;
 }
+
+.nav-facebook { display:none; }
+
+.nav-header li a {
+    color: var(--color-content-secondary) !important;
+}
